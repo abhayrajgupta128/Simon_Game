@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    margin-top: 10px;
+}
+.btn-container{
+    display: flex;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+button{
+    background-color: rgb(97, 95, 95);
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: solid 3px transparent;
+    z-index: 1;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size:20px;
+    }
+    .btn {
+        height: 150px;
+        width: 150px;
+        font-size: 16px;
+    }
+    button{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .btn {
+        height: 120px;
+        width: 120px;
+        font-size: 12px;
+    }
+    button{
+        font-size: 15px;
+    }
+}
+.yellow{
+   
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.purple{
+    background-color: #819ff9;
+}
+.green{
+    background-color: #63aac0;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+
